@@ -11,7 +11,7 @@ div{
     text-align: center;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
+    margin-right: 50%;
     transform: translate(-50%, -50%)
 }
 
@@ -26,9 +26,9 @@ h2{
 @media screen and (max-width:1140px){
     div{
         position: absolute;
-        padding: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
         width: auto;
     }
     h1{
