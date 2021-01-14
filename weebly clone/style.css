@@ -281,5 +281,64 @@ p {
 hr {
   width: 1100px;
   margin: auto;
-  margin-bottom: 95px;
+  margin-bottom: 26px;
+}
+
+.heading-3 h1 {
+  text-align: center;
+  justify-content: center;
+  padding: 0 65px;
+  /* font-size: 32px;
+      font-weight: 500;
+      line-height: 40px; */
+  color: #2f3337;
+  font-size: 32px;
+  /* font-weight: 500; */
+  line-height: 40px;
+}
+
+.intro2 p {
+  text-align: center;
+  justify-content: center;
+  margin: 5px 416px 0 416px;
+  line-height: 1.5em;
+}
+
+.intro-buttons2 {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.intro-buttons2 button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3374ff;
+  width: auto;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin: 10px 55px 0px 540px;
+  border-width: 0;
+  cursor: pointer;
+  border-color: #3374ff;
+}
+
+.intro-buttons2 a {
+  color: #3374ff;
+  font-weight: bold;
+}
+
+.intro2 {
+  margin-bottom: 60px;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: -300px;
+}
+
+.image2 {
+  margin: 0 auto;
+  width: 995px;
+  margin-left: 277px;
 }
