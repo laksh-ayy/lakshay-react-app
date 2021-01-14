@@ -341,4 +341,97 @@ hr {
   margin: 0 auto;
   width: 995px;
   margin-left: 277px;
+  margin-bottom: 75px;
+}
+
+.after-images {
+  text-align: center;
+}
+
+.after-images h1 {
+  margin-top: 20px;
+  color: #2f3337;
+}
+
+.after-images h5 {
+  color: #70767c;
+}
+
+.scroll {
+  margin-top: 65px;
+  padding-left: 300px;
+  padding-right: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow: auto;
+  margin-bottom: 60px;
+  /* display: none; */
+}
+
+.scroll img {
+  height: 497px;
+  width: 908px;
+}
+
+.scroll a {
+  color: #3374ff;
+  font-weight: bold;
+}
+
+.scroll p {
+  /* text-align: center;
+  justify-content: center; */
+  margin-left: 200px;
+  margin-top: 5px;
+  width: 500px;
+  font-weight: 250;
+}
+
+.niche {
+  margin-bottom: 25px;
+}
+
+.card {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.scroll a {
+  margin-top: 5500px;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 400px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.end-line hr {
+  width: 920px;
+  margin-bottom: 90px;
+}
+
+.infoo {
+  margin-top: 80px;
+  margin-bottom: 65px;
+}
+
+.infoo h2 {
+  color: #70767c;
+  margin-left: 560px;
+}
+
+.infoo p {
+  color: #1b2126;
+  text-align: center;
+  justify-content: center;
+  margin: 5px 480px 0 480px;
+  line-height: 1.5em;
+}
+
+.customers img {
+  width: 100%;
+  height: auto;
 }
