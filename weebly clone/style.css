@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-
+  opacity: 1 !important;
+  visibility: visible !important;
   color: #000000;
   /* font-family: "Noto Sans TC", sans-serif; */
-  font-family: SQMarket-Medium, SQMarket, "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif;
+  /* font-family: SQMarket-Medium, SQMarket, "Helvetica Neue", "Helvetica", "Arial", */
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 
 .gray-background {
@@ -114,4 +116,59 @@ li {
   z-index: 10;
   cursor: pointer;
   border-color: #3374ff;
+}
+
+.intro {
+  padding-top: 0px;
+  margin-top: 69px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 69px;
+}
+
+.heading-2 h1 {
+  text-align: center;
+  justify-content: center;
+  padding: 0 65px;
+  /* font-size: 32px;
+    font-weight: 500;
+    line-height: 40px; */
+  color: #2f3337;
+  font-size: 32px;
+  /* font-weight: 500; */
+  line-height: 40px;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5em;
+}
+
+.intro-buttons {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.intro-buttons Button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3374ff;
+  width: auto;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin: 10px 55px 0px 30px;
+  border-width: 0;
+  cursor: pointer;
+  border-color: #3374ff;
+}
+
+.intro-buttons a {
+  color: #3374ff;
+  font-weight: bold;
+}
+
+.banner img {
+  margin: 0;
+  width: 100%;
 }
