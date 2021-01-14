@@ -435,3 +435,27 @@ hr {
   width: 100%;
   height: auto;
 }
+
+.above-footer {
+  background-color: #f4f4f4;
+  color: #2f3337;
+}
+
+.above-footer h2 {
+  font-weight: 600;
+  margin-top: 107px;
+  margin-left: 550px;
+}
+
+.above-footer button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3374ff;
+  width: 236px;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin: 38px 55px 95px 645px;
+  border-width: 0;
+  cursor: pointer;
+  border-color: #3374ff;
+}
