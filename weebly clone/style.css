@@ -172,3 +172,114 @@ p {
   margin: 0;
   width: 100%;
 }
+
+.content {
+  position: relative;
+}
+
+.content h1 {
+  padding-top: 0px;
+  margin-top: 69px;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.svgs {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#svg1 {
+  margin-left: 284px;
+  margin-bottom: 8px;
+}
+
+#svg2 {
+  margin-left: 50px;
+}
+
+#svg3 {
+  margin-left: 50px;
+}
+
+#svg4 {
+  margin-left: 50px;
+}
+
+#line {
+  height: 1px;
+  width: 100px;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+
+.para {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.para h3 {
+  font-weight: 350;
+}
+
+.para p {
+  font-weight: 150;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+.para1 {
+  flex: 3.5;
+}
+
+.para2 {
+  flex: 4.5;
+}
+
+.para3 {
+  flex: 4;
+}
+
+.para4 {
+  flex: 4;
+}
+
+.links {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 95px;
+}
+
+.links a {
+  color: #3374ff;
+  font-weight: bold;
+}
+
+.link1 {
+  flex: 3.5;
+}
+
+.link2 {
+  flex: 4.5;
+}
+
+.link3 {
+  flex: 4;
+}
+
+.link4 {
+  flex: 4;
+}
+
+hr {
+  width: 1100px;
+  margin: auto;
+  margin-bottom: 95px;
+}
