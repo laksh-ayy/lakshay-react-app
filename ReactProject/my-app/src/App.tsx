@@ -25,9 +25,9 @@ function App() {
         <Route path="/single-resource" component={SingleResource} />
         <Route
           path="/login"
-          component={Login}
-          loggedIn={loggedIn}
-          setLoggedIn={setLoggedIn}
+          component={() => (
+            <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
+          )}
         />
         <Route
           path="/"
@@ -36,7 +36,12 @@ function App() {
             <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
           )}
         />
-        <Route path="/register" component={Register} />
+        <Route
+          path="/register"
+          component={() => (
+            <Register loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
+          )}
+        />
       </div>
     </Router>
   );
