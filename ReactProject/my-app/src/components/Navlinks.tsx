@@ -1,8 +1,4 @@
 import React from "react";
-import SingleUser from "./SingleUser";
-import ListUsers from "./ListUsers";
-import SingleResource from "./SingleResource";
-import ListResources from "./ListResources";
 import { BrowserRouter as Router, Link, Switch } from "react-router-dom";
 import "./Dashboard.css";
 
@@ -20,6 +16,15 @@ const Navlinks: React.FC = () => {
       </Link>
       <Link to="/single-resource">
         <li>Single Resource</li>
+      </Link>
+      <Link to="/delayed">
+        <li>Delayed</li>
+      </Link>
+      <Link to="/create-user">
+        <li>Create User</li>
+      </Link>
+      <Link to="/login">
+        <li>Log Out</li>
       </Link>
     </ul>
   );

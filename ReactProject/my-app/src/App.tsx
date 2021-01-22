@@ -8,21 +8,22 @@ import SingleUser from "./components/SingleUser";
 import ListUsers from "./components/ListUsers";
 import SingleResource from "./components/SingleResource";
 import ListResources from "./components/ListResources";
+import Delayed from "./components/Delayed";
+import CreateUser from "./components/CreateUser";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState<boolean>(false);
-  // if (loggedIn) {
-  //   return <h1>dfghjk</h1>;
-  // }
   return (
     <Router>
       <div className="App">
         <Dashboard loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
         <Route path="/myprofile" component={SingleUser} />
         <Route path="/list-users" component={ListUsers} />
+        <Route path="/delayed" component={Delayed} />
         <Route path="/list-resources" component={ListResources} />
         <Route path="/single-resource" component={SingleResource} />
+        <Route path="/create-user" component={CreateUser} />
         <Route
           path="/login"
           component={() => (
